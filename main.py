@@ -37,7 +37,6 @@ def main():
     args = parser.parse_args()
     bitly_token = os.environ["BITLY_TOKEN"]
     headers = {"Authorization" : f"{bitly_token}"}
-    print (args.link)
     url_parts = urlparse(args.link)
     netloc_link = url_parts.netloc
     path_link = url_parts.path
