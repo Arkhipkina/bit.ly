@@ -43,7 +43,7 @@ python main.py [Ваш битли]
 Например:
 
 ```python
-python main.py https://dvmn.org/
+python main.py https://bit.ly/3uFFU3Q
 ```
 
 ## Цель проекта
