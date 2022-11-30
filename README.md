@@ -20,5 +20,31 @@ pip install -r requirements.txt
 BITLY_TOKEN=*Ваш токен*
 ```
 
+##Как запустить
+
+###Если вы хотите получить битли своей ссылки:
+
+```python 
+python main.py [Ваша ссылка]
+```
+
+Например:
+
+```python 
+python main.py https://dvmn.org/
+```
+
+###Если вы хотите получить клики по Вашей битли:
+
+```python
+python main.py [Ваш битли]
+```
+
+Например:
+
+```python
+python main.py https://dvmn.org/
+```
+
 ## Цель проекта
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
